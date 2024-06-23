@@ -1,3 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+.search-input {
+  background-image: url("../public/searchIcon.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 12px center;
+}
+
+.ant-slider-rail {
+  background-color: rgba(70, 163, 88, 0.2) !important;
+}
+.ant-slider-handle {
+  background-color: #46a358 !important;
+}
+.ant-slider-track-1 {
+  background: #46a358 !important;
+}
+.ant-slider-handle::after {
+  background: #46a358 !important;
+}
+.ant-tabs-tab {
+  padding-top: 0 !important;
+  color: #46a358 !important;
+  border-color: #46a358 !important;
+}
+.ant-tabs-nav {
+  margin-bottom: 0 !important;
+}
+.ant-tabs-nav::before {
+  border-bottom: 0 !important;
+}
+.ant-tabs-tab {
+  font-weight: 600 !important;
+  border-color: #46a358 !important;
+  font-size: 15px !important;
+
+  color: #46a358;
+}
+.ant-pagination-item {
+  border: 1px solid #e5e5e5 !important;
+}
+.ant-pagination-item-active {
+  border-color: #46a358 !important;
+  background: #46a358 !important;
+}
+.ant-pagination-item-active > a {
+  color: white !important;
+}
+.product-image-wrapper:hover > .product-image-list {
+  bottom: 0;
+  transition: all 1s;
+}
+.modalLoginInp {
+  width: 300px;
+  border-radius: 5px;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  border: 1px solid #eaeaea;
+  outline: none;
+}
+.modalLoginInp::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a5a5a5;
+}
+.ant-btn-primary{
+  background-color: #46a358;
+}
+  /* .css-dev-only-do-not-override-zg0ahe{
+    scale: 0;
+  } */
+  .ant-btn-default{
+    display: none;
+  }
+  .ant-btn-primary{
+    display: none;
+  }
